@@ -11,22 +11,22 @@ COMMON
 a.navbar-brand.title-icon span {
     color: #00abae;
 }
-
-.title-icon{
-    font-size: 1vw;
-    font-weight: bold;
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
 }
-
-.font-primary {
-    color: #00abae;
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
 }
 p{
-    font-size: 14px;
+    font-size: 0.7vw;
 }
 
 h2{
     font-weight: bold;
-    font-size: 1.1vw;
+    font-size: 2vw;
     margin-bottom: 1vw;
 }
 
@@ -47,8 +47,9 @@ ABOUT
 }
 
 #about img{
-    border-radius: 50%;
-    width: 7.5vw;
+    border-radius: 80%;
+    width:14vw;
+    height:14vw;
     margin-bottom: 1vw;
 }
 
@@ -97,14 +98,19 @@ PROJECT
     text-align: center;
 }
 
-#project .card{
+#Project .card{
     width: 100%;
+    font-size:1vw;
 }
 
-#project .card-title{
+#Project .card-title{
     font-weight: bold;
+    font-size:2vw;
 }
 .img-fluid.rounded-start img{
     width:30vw;
     
+}
+a.btn-secondary{
+    font-size:1.5vw;
 }
