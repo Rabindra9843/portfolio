@@ -13,7 +13,7 @@ a.navbar-brand.title-icon span {
 }
 
 .title-icon{
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
 }
 
@@ -26,8 +26,8 @@ p{
 
 h2{
     font-weight: bold;
-    font-size: 23px;
-    margin-bottom: 20px;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
 }
 
 a.font-black {
@@ -41,40 +41,40 @@ ABOUT
 **********/
 
 #about{
-    margin: 60px auto;
-    max-width: 400px;
+    margin: 2vw auto;
+    max-width: 20vw;
     text-align: center;
 }
 
 #about img{
     border-radius: 50%;
-    width: 150px;
-    margin-bottom: 10px;
+    width: 7.5vw;
+    margin-bottom: 1vw;
 }
 
 #about .name{
-    font-size: 19px;
+    font-size: 1vw;
 }
 
 #about .vocation{
-    font-size: 17px;
+    font-size: 1 vw;
     color: #ababab;
-    margin-bottom: 10px;
+    margin-bottom: 0.5vw;
 }
 
 #about .skills{
-    font-size: 14px;
+    font-size: 0.7vw;
     color: #00abae;
-    margin-bottom: 10px;
+    margin-bottom: 0.5vw;
 }
 
 #about .email{
-    margin-top: 14px;
-    font-size: 14px;
+    margin-top: 0.7vw;
+    font-size: 0.7vw;
 }
 
 #about .icons{
-    margin-top: 20px;
+    margin-top: 2vw;
     font-size: 30px;
 }
 
